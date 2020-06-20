@@ -75,6 +75,7 @@ const DataStore = model('DataStore', {
             (!self.filter.ganre || value.ganre === self.filter.ganre) &&
             (!self.filter.singer || value.singer === self.filter.singer)
         ) return true;
+        return false;
       })
       self.setPages(self.size);
       self.setPage(1);

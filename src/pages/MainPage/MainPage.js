@@ -6,7 +6,7 @@ import Filter from './components/Filter';
 
 const MainPage = props => {
   const { dataStore: { saveUserData } } = props;
-  useEffect(() => {saveUserData()}, [])
+  useEffect(() => {saveUserData()}, []);
   return (
       <div style={{backgroundColor: '#dedede', minHeight: 50, padding: 5}}>
         <div style={{display: 'flex'}}>

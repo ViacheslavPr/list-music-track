@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { inject, observer } from 'mobx-react';
 import ListSongs from './components/ListSongs';
 import Pagination from './components/Pagination';
+import Filter from './components/Filter';
 
 const MainPage = props => {
-  const { dataStore } = props;
-  dataStore.saveUserData();
-
-  console.log('login screen', dataStore.toJSON());
+  const { dataStore: { saveUserData } } = props;
+  useEffect(() => {saveUserData()}, [])
   return (
       <div style={{backgroundColor: '#dedede', minHeight: 50, padding: 5}}>
         <div style={{display: 'flex'}}>
@@ -26,7 +25,7 @@ const MainPage = props => {
             width: '30%',
             backgroundColor: 'white'
           }}>
-
+            <Filter/>
           </div>
         </div>
         <div>

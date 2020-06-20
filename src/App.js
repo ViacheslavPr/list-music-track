@@ -4,9 +4,7 @@ import { stores } from './stores/root-store';
 import MainPage from './pages/MainPage/MainPage';
 import './App.css';
 
-function App(props) {
-  // console.log('props', props);
-
+function App() {
   return (
     <Provider {...stores}>
       <div className="App">

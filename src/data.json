@@ -1,0 +1,86 @@
+[{
+    "singer": "Rammstein",
+    "song": "Mutter",
+    "ganre": "rock",
+    "year": "2001"
+}, {
+    "singer": "Shatunov",
+    "song": "Belye rozy",
+    "ganre": "pop",
+    "year": "1996"
+}, {
+    "singer": "Einaudi",
+    "song": "Fly",
+    "ganre": "classic",
+    "year": "2006"
+}, {
+    "singer": "Belorusskih",
+    "song": "Mokrye krosy",
+    "ganre": "pop",
+    "year": "2019"
+}, {
+    "singer": "ABBA",
+    "song": "Mamma Mia",
+    "ganre": "pop",
+    "year": "1975"
+}, {
+    "singer": "Clapton",
+    "song": "Layla",
+    "ganre": "blues",
+    "year": "1973"
+}, {
+    "singer": "Ellington ",
+    "song": "Caravan",
+    "ganre": "blues",
+    "year": "1985"
+}, {
+    "singer": "Parton",
+    "song": "Jolene",
+    "ganre": "country",
+    "year": "1974"
+}, {
+    "singer": "Denver",
+    "song": "Country roads",
+    "ganre": "country",
+    "year": "1971"
+}, {
+    "singer": "Hood",
+    "song": "Unix",
+    "ganre": "electro",
+    "year": "2005"
+}, {
+    "singer": "Moby",
+    "song": "Flower",
+    "ganre": "electro",
+    "year": "2000"
+}, {
+    "singer": "Eminem",
+    "song": "Lose yourself",
+    "ganre": "rap",
+    "year": "2002"
+}, {
+    "singer": "Snoop Dogg",
+    "song": "Sweat",
+    "ganre": "rap",
+    "year": "2011"
+}, {
+    "singer": "Sanborn",
+    "song": "Goodbye",
+    "ganre": "jazz",
+    "year": "1988"
+}, {
+    "singer": "Linkin Park",
+    "song": "In The End",
+    "ganre": "rock",
+    "year": "2002"
+}, {
+    "singer": "Oomph",
+    "song": "Augen auf",
+    "ganre": "rock",
+    "year": "2003"
+}, {
+    "singer": "Rihanna",
+    "song": "Umbrella",
+    "ganre": "pop",
+    "year": "2007"
+}]
